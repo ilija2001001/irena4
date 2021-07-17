@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.pre-header{
+    background-color: black;
+    height: 38px;
+    color: white;     
+}
+.pre-header .sek-meni {
+    list-style: none;
+    text-align: center;
+}
+.pre-header .sek-meni li{
+    display: inline-block;
+    padding-top: 6px;
+}
+.pre-header .sek-meni li a{
+    color: gray;
+    text-decoration: none;
+    padding-right: 8px;
+    padding-left: 3px;
+    transition-timing-function: ease;
+}
+.pre-header .sek-meni li a:hover{
+    color: #ed3237;
+    transition-duration: 0.3s;
+}
+.main-nav{
+    margin-top: 0px;
+}
+.main-nav .pri-meni{
+    list-style: none;  
+    margin-top: 40px;
+    margin-left: 200px;
+}
+.main-nav .pri-meni li{
+    display: inline-block;
+    margin-left: 25px;
+}
+.main-nav img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.main-nav .pri-meni li a{
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 22px;
+    transition-timing-function: ease;
+}
+.main-nav .pri-meni li a:hover{
+    color: #ed3237;
+    transition-duration: 0.3s;
+}
+.logo{
+    height: 90px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.hero-sekcija{
+    background-image: url('bgblurmed.jpg');
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.hero-sekcija h1{
+    font-size: 46px;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    margin-top: 300px;
+}
+.copy{
+    text-align: center;
+    font-size: 14px;
+}
+.phone{
+    height: 17px;
+}
+.ig{
+    height: 17px;
+}
+.fb{
+    height: 17px;
+}
+.pin{
+    height: 17px;
+}
+.pocetna{
+    margin-left: -50px;
+}
+.heroimg{
+    width: 100%;
+    width: 400px;
+}
+.pass{
+    margin-top: 200px;
+    background-image: url('bgblurmed.jpg');
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.pasos{
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition-duration: 300ms;
+    transition-delay: 0.4s;
+    transition-timing-function: ease;
+}
+.pasos:hover{
+    opacity: 0%;
+}
+@media screen and (max-width: 1000px) {
+    .pri-meni{
+        display: none;
+    }
+    .logo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .adresa1 {
+        display: none;
+    }
+}
+@media screen and (max-width:800px) {
+    .fb1 {
+        display: none;
+    }  
+}
+@media screen and (max-width:500px) {
+    .sek-meni{
+        font-size: 15px;
+        float: left;
+    }
+    .phone1{
+        display: none;
+    }
+    .ig1{
+        display: none;
+    }
+    .preheader{
+        margin-right: -20px;
+    }
+}
